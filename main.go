@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Replace with your Railway MySQL database credentials
-	dsn := "mysql://root:QQnjRRqLtuoHIbDUMUojCpHibYCWfMTg@mysql.railway.internal:3306/railway"
+	dsn := "root:QQnjRRqLtuoHIbDUMUojCpHibYCWfMTg@tcp(mysql.railway.internal:3306)/railway"
 
 	// Open a connection to the database
 	db, err := sql.Open("mysql", dsn)
